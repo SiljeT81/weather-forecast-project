@@ -1,31 +1,53 @@
-body{
-    background-color: #F1F1F2;
-    font-family: "Barlow Semi Condensed", sans-serif;
+body {
+  background-color: #f1f1f2;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-.weather-app{
-    background-color: #FCFAFA;
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px rgba(59, 58, 58, 0.2);
+.weather-app {
+  background-color: #fcfafa;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(59, 58, 58, 0.2);
+}
+
+.search-form-input {
+  background-color: #fcfafa;
+  border: 1.5px solid #f547a7;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+::placeholder {
+    color: #f547a7;
+}
+
+.search-form-button {
+    background-color: #f547a7;
+    color: #fcfafa;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
 }
 
 header {
-    border-bottom: 1px solid #f9deed;
-    padding: 0 0 30px 0;
+  border-bottom: 1px solid #f9deed;
+  padding: 0 0 30px 0;
 }
 
-.city-search{
-    color: #F547A7
+.city-search {
+  color: #f547a7;
 }
 
 .weather-details strong {
-    color: #F547A7
+  color: #f547a7;
 }
 
 footer {
-    border-top: 1px solid #f9deed;
-    padding: 30px 0;
+  border-top: 1px solid #f9deed;
+  padding: 30px 0;
 }
