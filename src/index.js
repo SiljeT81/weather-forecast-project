@@ -7,3 +7,5 @@ function changeCityName(event) {
     let cityElement = document.querySelector("#city");
     cityElement.innerHTML = searchInput.value;
 }
+
+console.log(axios);
