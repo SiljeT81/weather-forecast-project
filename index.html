@@ -12,15 +12,15 @@
   <body>
     <div class = "weather-app">
     <header>
-      <form class="search-form">
-        <input type="search" placeholder="Enter a city.." required class="search-form-input"/>
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city.." required class="search-form-input" id="search-city"/>
         <input type="submit" value="Search" class="search-form-button"/>
       </form>
     </header>
     <main>
       <div>
       <div class="weather-app-main">
-        <h1 class="weather-app-city">Paris</h1>
+        <h1 class="weather-app-city" id="city">Paris</h1>
         <div class="weather-temperature">
         <div class="icon">🌦️</div>
         <div class="degrees">9</div>
@@ -40,5 +40,6 @@
       <a href="https://jazzy-rugelach-604937.netlify.app/" target="_blank">hosted on Netlify</a>
     </footer>
     </div>
+    <script src = "src/index.js"></script>
   </body>
 </html>
