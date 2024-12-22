@@ -71,8 +71,9 @@ main {
 }
 
 .icon {
-  font-size: 30px;
-  margin: 0 0 0 10px;
+  width: 85px;
+  height: 85px;
+  margin: -13px -10px 0 30px;
 }
 
 .degrees {
