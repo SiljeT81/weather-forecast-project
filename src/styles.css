@@ -42,7 +42,7 @@ header {
 .weather-app-city {
   color: #f547a7;
   margin: 20px 0;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 500;
   line-height: 22px;
 }
@@ -78,7 +78,7 @@ main {
 
 .degrees {
   color: #f547a7;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 500;
   margin: 0 0 0 10px;
 }
