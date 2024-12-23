@@ -79,6 +79,7 @@ main {
 .degrees {
   color: #f547a7;
   font-size: 50px;
+  font-weight: 500;
   margin: 0 0 0 10px;
 }
 
