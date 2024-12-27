@@ -56,9 +56,10 @@ main {
 }
 
 .weather-details {
+  font-size: 16px;
+  line-height: 24px;
   color: rgba(39, 33, 66, 0.4);
-  position: fixed;
-  margin: 20px 0 0 350px;
+  margin-top: 20px;
 }
 
 .weather-details strong {
@@ -90,9 +91,9 @@ main {
 }
 
 .weather-forecast {
-    display: flex;
-    margin: 110px 0 10px;
-    justify-content: space-around;
+  display: flex;
+  margin: 50px 0 10px;
+  justify-content: space-around;
 }
 
 .weather-forecast-date {
@@ -114,7 +115,6 @@ main {
   font-weight: 500;
   display: flex;
   justify-content: center;
- 
 }
 
 .weather-forecast-temperature {
