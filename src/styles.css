@@ -1,10 +1,10 @@
 body {
-  background-color: #f1f1f2;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,71,167,1) 35%, rgba(0,212,255,1) 100%);
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .weather-app {
-  background-color: #fcfafa;
+  background-color: #f1f1f2;
   max-width: 600px;
   margin: 30px auto;
   padding: 25px;
@@ -13,7 +13,7 @@ body {
 }
 
 .search-form-input {
-  background-color: #fcfafa;
+  background-color: #f3edf0;
   border: 1.5px solid #f547a7;
   border-radius: 4px;
   padding: 10px 20px;
